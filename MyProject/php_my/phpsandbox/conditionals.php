@@ -22,8 +22,7 @@ if ($num == 5) {
 }
 
 #if嵌套
-/**
- * if(){}
+/* * if(){}
  * else if(){}
  * else if(){}
  * else if(){}
