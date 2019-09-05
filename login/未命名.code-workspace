@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/Users/iswangweiyan/Desktop/MyProject/php_my"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"eslint.alwaysShowStatus": true
+	}
+}
