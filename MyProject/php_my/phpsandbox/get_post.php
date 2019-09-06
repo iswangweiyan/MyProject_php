@@ -2,6 +2,15 @@
 if (isset($_GET["name"])) {
     echo $_GET["name"];
 }
+if (isset($_POST['name'])) {
+    echo $_POST["name"];
+
+if (isset($_REQUEST["name"])) {
+    print_r($_REQUEST);
+}
+echo $_SERVER["QUERY_SETING"];
+
+}
 
 ?>
 
@@ -16,7 +25,7 @@ if (isset($_GET["name"])) {
 </head>
 
 <body>
-    <form action="get_post.php" method="GET">
+    <form action="get_post.php" method="POST">
         <div>
             <label>名字</label>
             <input type="text" name="name">
