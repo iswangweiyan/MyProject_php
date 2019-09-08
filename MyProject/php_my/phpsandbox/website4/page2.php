@@ -17,7 +17,7 @@ $email = $_SESSION['email'];
 </head>
 
 <body>
-    <div>你的名字是: <?php echo $name; ?> </div>
+    <div>你的名字是:<?php echo $name; ?> </div>
     <div>你的邮箱是:<?php echo $email; ?></div>
 
 </body>
