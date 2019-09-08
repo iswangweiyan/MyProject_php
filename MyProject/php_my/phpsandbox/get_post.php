@@ -1,14 +1,14 @@
-<?php 
+<?php
 if (isset($_GET["name"])) {
     echo $_GET["name"];
 }
 if (isset($_POST['name'])) {
     echo $_POST["name"];
 
-if (isset($_REQUEST["name"])) {
-    print_r($_REQUEST);
-}
-echo $_SERVER["QUERY_SETING"];
+    if (isset($_REQUEST["name"])) {
+        print_r($_REQUEST);
+    }
+    echo $_SERVER["QUERY_SETING"];
 
 }
 
@@ -25,17 +25,17 @@ echo $_SERVER["QUERY_SETING"];
 </head>
 
 <body>
-    <form action="get_post.php" method="POST">
-        <div>
-            <label>名字</label>
-            <input type="text" name="name">
-        </div>
-        <div>
-            <label>邮箱</label>
-            <input type="text" name="email">
-        </div>
-        <input type="submit" value="确认">
-    </form>
+<form action="get_post.php" method="POST">
+    <div>
+        <label>名字</label>
+        <input type="text" name="name">
+    </div>
+    <div>
+        <label>邮箱</label>
+        <input type="text" name="email">
+    </div>
+    <input type="submit" value="确认">
+</form>
 
 </body>
 

@@ -4,7 +4,7 @@ if (isset($_POST["submit"])) {
     $email = $_POST['email'];
 
     session_start(); #如果此方法不执行,不能使用session
-    header("http://localhost/phpsandbox/website4/page2.php");
+    header("location:page2.php");
 
 }
 ?>
