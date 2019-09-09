@@ -44,8 +44,8 @@ if ($num3 == 1) {
  * AND &&
  * OR ||
  * XOR 亦或 两真或者两假都不满足条件,只有一个真一个假,才满足
- * 
- * 
+ *
+ *
  */
 
 $number = 3;
@@ -69,7 +69,7 @@ if ($number2 == 5 xor $num > 10) {
 }
 #switch 开关
 /**
- * 
+ *
  */
 $favColor = "black";
 switch ($favColor) {

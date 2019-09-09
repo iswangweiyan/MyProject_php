@@ -75,6 +75,7 @@ $string4 = "They're Here";
  * 
  * function define($name,$value,$case_insensitive = false) { }
  */
+
 define('LOG','OPEN sss',false);
 
 

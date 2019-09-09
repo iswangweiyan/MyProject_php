@@ -17,36 +17,39 @@ echo "你的分数是" . ($score < 10 ? ($age > 10 ? "中等成绩" : "优等成
 ?>
 
 <div>
-    <?php if ($loggedIn) { ?>
+    <?php if ($loggedIn) {?>
         <h1>hello world</h1>
-    <?php } else { ?>
+    <?php } else {?>
         <h1>你好</h1>
-    <?php } ?>
+    <?php }?>
 </div>
 
 <!--更好的写法-->
 
 <div>
-    <?php if ($loggedIn) : ?>
+    <?php if ($loggedIn): ?>
         <h1>Welcome</h1>
-    <?php else : ?>
+    <?php else: ?>
         <h1>Everyone</h1>
-    <?php endif; ?>
+    <?php endif;?>
 </div>
 
 <!-- for循环语法糖 -->
 <div>
-    <?php for ($i = 0; $i < 10; $i++) : ?>
+    <?php for ($i = 0; $i < 10; $i++): ?>
         <li><?php echo $i . "<br>" ?></li>
-    <?php endfor; ?>
+    <?php endfor;?>
 </div>
 
 <!-- foreach 语法糖 -->
 <?php
-$arr = ["iswangweiyan", "zhangsan", "lisi"];
+$arr = [
+    "iswangweiyan",
+    "zhangsan",
+    "lisi"];
 ?>
 <div>
-    <?php foreach ($arr as $value) : ?>
+    <?php foreach ($arr as $value): ?>
         <?php echo $value . "<br>"; ?>
-    <?php endforeach;  ?>
+    <?php endforeach;?>
 </div>
