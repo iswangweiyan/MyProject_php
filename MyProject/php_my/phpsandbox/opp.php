@@ -37,9 +37,13 @@ class Person
         $this->email = $email;
     }
     #析构函数
-    public function __destruct()
+    // public function __destruct()
+    // {
+    //     echo __CLASS__ . "被销毁了";
+    // }
+     public function __destruct()
     {
-        echo __CLASS__ . "被销毁了";
+       echo __CLASS__ . "销毁处理";
     }
 
 }
