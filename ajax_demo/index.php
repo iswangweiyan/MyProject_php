@@ -7,7 +7,7 @@
     </head>
    <?php
      //查询数据库
-    $link = mysqli_connect("localhost", 'root', '123456', 'test');
+    $link = mysqli_connect("localhost", 'root', 'root', 'db');
     mysqli_query($link, "set names utf8;");
     $sql = "SELECT * FROM area WHERE ParentId = 0 ";
     $rs = mysqli_query($link, $sql);

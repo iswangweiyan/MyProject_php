@@ -3,7 +3,7 @@ if($_POST)
 {
     $type = $_POST['type'];
     $id = $_POST['id'];
-    $link = mysqli_connect("localhost", 'root', '123456', 'test');
+    $link = mysqli_connect("localhost", 'root', 'root', 'db');
     mysqli_query($link, "set names utf8;");
     $sql = "SELECT * FROM area WHERE ParentId = {$id} ";
     $rs = mysqli_query($link, $sql);
